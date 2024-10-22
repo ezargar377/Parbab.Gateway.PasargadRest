@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parbad.Gateway.PasargadRest
+namespace ParbadGateway.PasargadRest
 {
     public interface IPasargadIdentityService
     {

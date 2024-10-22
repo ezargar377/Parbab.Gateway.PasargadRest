@@ -1,9 +1,7 @@
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 using Parbad.Abstraction;
-using Parbad.Gateway.Parsian;
-using Parbad.Gateway.Pasargad.Internal.Models;
-using Parbad.Gateway.PasargadRest.Models;
+using ParbadGateway.PasargadRest.Models;
 using Parbad.Http;
 using Parbad.Internal;
 using Parbad.Options;
@@ -16,7 +14,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-namespace Parbad.Gateway.PasargadRest.Internal
+namespace ParbadGateway.PasargadRest.Internal
 {
     internal static class PasargadRestHelper
     {

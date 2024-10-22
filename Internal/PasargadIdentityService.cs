@@ -2,7 +2,7 @@
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
-using Parbad.Gateway.PasargadRest.Models;
+using ParbadGateway.PasargadRest.Models;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,7 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Parbad.Gateway.PasargadRest.Internal
+namespace ParbadGateway.PasargadRest.Internal
 {
     internal class PasargadIdentityService : IPasargadIdentityService
     {

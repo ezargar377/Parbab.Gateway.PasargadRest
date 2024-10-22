@@ -1,4 +1,4 @@
-﻿namespace Parbad.Gateway.PasargadRest.Internal
+﻿namespace ParbadGateway.PasargadRest.Internal
 {
     internal class ErrorInfo
     {

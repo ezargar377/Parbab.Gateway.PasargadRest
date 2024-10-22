@@ -1,5 +1,5 @@
 ﻿using Parbad.Abstraction;
-namespace Parbad.Gateway.PasargadRest
+namespace ParbadGateway.PasargadRest
 {
     public class PasargadRestGatewayAccount : GatewayAccount
     {

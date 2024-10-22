@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ParbadGateway.PasargadRest</name>
+    </assembly>
+    <members>
+        <member name="P:ParbadGateway.PasargadRest.Models.PasargadRestCallbackResult.InvoiceNumber">
+            <summary>
+            Equals to ReferenceID in Parbad system.
+            </summary>
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGateway.RequestAsync(Parbad.Abstraction.Invoice,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGateway.FetchAsync(Parbad.InvoiceContext,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGateway.VerifyAsync(Parbad.InvoiceContext,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGateway.RefundAsync(Parbad.InvoiceContext,Parbad.Money,System.Threading.CancellationToken)">
+            <inheritdoc />
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGatewayBuilderExtensions.AddPasargadRest(Parbad.GatewayBuilders.IGatewayBuilder)">
+            <summary>
+            Adds PasargadRest gateway to Parbad services.
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGatewayBuilderExtensions.WithAccounts(Parbad.GatewayBuilders.IGatewayConfigurationBuilder{ParbadGateway.PasargadRest.PasargadRestGateway},System.Action{Parbad.GatewayBuilders.IGatewayAccountBuilder{ParbadGateway.PasargadRest.PasargadRestGatewayAccount}})">
+            <summary>
+            Configures the accounts for <see cref="T:ParbadGateway.PasargadRest.PasargadRestGateway"/>.
+            </summary>
+            <param name="builder"></param>
+            <param name="configureAccounts">Configures the accounts.</param>
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGatewayBuilderExtensions.WithOptions(Parbad.GatewayBuilders.IGatewayConfigurationBuilder{ParbadGateway.PasargadRest.PasargadRestGateway},System.Action{ParbadGateway.PasargadRest.PasargadRestGatewayOptions})">
+            <summary>
+            Configures the options for PasargadRest Gateway.
+            </summary>
+            <param name="builder"></param>
+            <param name="configureOptions">Configuration</param>
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGatewayInvoiceBuilderExtensions.UsePasargadRest(Parbad.InvoiceBuilder.IInvoiceBuilder)">
+            <summary>
+            The invoice will be sent to Pasargad gateway.
+            </summary>
+            <param name="builder"></param>
+        </member>
+        <member name="M:ParbadGateway.PasargadRest.PasargadRestGatewayInvoiceBuilderExtensions.AddPasargadCellNumber(Parbad.InvoiceBuilder.IInvoiceBuilder,System.Int64)">
+            <summary>
+            Add Mobile Number.
+            </summary>
+            <param name="builder"></param>
+            <param name="enable">If true, the invoice will be sent to pasargad  Mobile gateway. Otherwise it will be sent to pasargad Web gateway.</param>
+        </member>
+    </members>
+</doc>

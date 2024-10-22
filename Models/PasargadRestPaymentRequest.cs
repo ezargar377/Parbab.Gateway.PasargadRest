@@ -1,4 +1,4 @@
-﻿namespace Parbad.Gateway.PasargadRest.Models
+﻿namespace ParbadGateway.PasargadRest.Models
 {
 
     internal class PasargadRestPaymentRequest

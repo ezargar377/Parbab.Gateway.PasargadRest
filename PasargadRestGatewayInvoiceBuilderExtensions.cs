@@ -1,11 +1,10 @@
 ﻿using System;
 using Parbad.Abstraction;
-using Parbad.Gateway.Parsian;
-using Parbad.Gateway.PasargadRest.Internal;
-using Parbad.Gateway.Saman.Internal;
+using ParbadGateway.PasargadRest.Internal;
 using Parbad.InvoiceBuilder;
+using Parbad;
 
-namespace Parbad.Gateway.PasargadRest
+namespace ParbadGateway.PasargadRest
 {
     public static class PasargadRestGatewayInvoiceBuilderExtensions
     {

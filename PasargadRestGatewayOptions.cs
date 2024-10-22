@@ -1,4 +1,4 @@
-﻿namespace Parbad.Gateway.PasargadRest
+﻿namespace ParbadGateway.PasargadRest
 {
     public class PasargadRestGatewayOptions
     {

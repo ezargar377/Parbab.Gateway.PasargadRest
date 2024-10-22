@@ -5,7 +5,7 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Options;
 using Newtonsoft.Json;
 using Parbad.Abstraction;
-using Parbad.Gateway.PasargadRest.Internal;
+using ParbadGateway.PasargadRest.Internal;
 using Parbad.GatewayBuilders;
 using Parbad.Internal;
 using Parbad.Net;
@@ -15,8 +15,9 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using Parbad;
 
-namespace Parbad.Gateway.PasargadRest
+namespace ParbadGateway.PasargadRest
 {
     [Gateway(Name)]
     public class PasargadRestGateway : GatewayBase<PasargadRestGatewayAccount>

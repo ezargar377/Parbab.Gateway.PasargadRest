@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Parbad.Gateway.PasargadRest.Internal
+namespace ParbadGateway.PasargadRest.Internal
 {
     internal class PasargadErrorHandler
     {

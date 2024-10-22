@@ -3,7 +3,7 @@ Parbad - Online Payment Library for .NET developers
 				PasargadRest Gateway
 ---------------------------------------------------
 
-GitHub: https://github.com/ezargar377/Parbab.Gateway.PasargadRest
+GitHub: https://github.com/ezargar377/ParbabGateway.PasargadRest
 Tutorials: https://github.com/Sina-Soltani/Parbad/wiki
 
 -------------

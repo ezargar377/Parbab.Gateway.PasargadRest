@@ -1,9 +1,9 @@
 using System;
 using Microsoft.Extensions.DependencyInjection;
-using Parbad.Gateway.PasargadRest.Internal;
+using ParbadGateway.PasargadRest.Internal;
 using Parbad.GatewayBuilders;
 
-namespace Parbad.Gateway.PasargadRest
+namespace ParbadGateway.PasargadRest
 {
     public static class PasargadRestGatewayBuilderExtensions
     {
