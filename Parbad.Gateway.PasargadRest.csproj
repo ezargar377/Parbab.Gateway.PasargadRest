@@ -1,0 +1,58 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<PackageId>Parbad.Gateway.PasrgadRest</PackageId>
+		<Product>Parbad.Gateway.PasrgadRest</Product>
+		<VersionPrefix>1.0.1</VersionPrefix>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net6.0;net7.0;</TargetFrameworks>
+		<LangVersion>latest</LangVersion>
+		<Authors>Ehsan Zargar</Authors>
+		<Copyright>Copyright © Ehsan Zargar </Copyright>
+		<PackageProjectUrl>https://github.com/Sina-Soltani/Parbad</PackageProjectUrl>
+		<PackageIcon>icon.png</PackageIcon>
+		<PackageIconUrl>https://raw.githubusercontent.com/Sina-Soltani/Parbad/master/images/Parbad-128x128.png</PackageIconUrl>
+		<RepositoryUrl>https://github.com/ezargar377/Parbab.Gateway.PasargadRest</RepositoryUrl>
+		<PackageLicenseExpression>LGPL-3.0-or-later</PackageLicenseExpression>
+		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+		<PackageTags>parbad Payment Gateway Bank Pasargad درگاه بانک پاسارگاد</PackageTags>
+		<GenerateDocumentationFile>true</GenerateDocumentationFile>
+		<Description>
+			PasrgadRest Gateway for Parbad project.
+
+			For more information see: https://github.com/Sina-Soltani/Parbad
+		</Description>
+		<PackageReleaseNotes>Bugs fixed.</PackageReleaseNotes>
+	</PropertyGroup>
+
+	<PropertyGroup>
+		<NoWarn>1701;1702;1591</NoWarn>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<PackageReference Include="Microsoft.Extensions.Caching.Memory" Version="8.0.1" />
+		<PackageReference Include="Parbad" Version="3.9.1" />
+	</ItemGroup>
+
+
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Debug|AnyCPU'">
+		<DocumentationFile>Parbad.Gateway.PasrgadRest.xml</DocumentationFile>
+	</PropertyGroup>
+
+	<PropertyGroup Condition="'$(Configuration)|$(TargetFramework)|$(Platform)'=='Release|AnyCPU'">
+		<DocumentationFile>Parbad.Gateway.PasrgadRest.xml</DocumentationFile>
+	</PropertyGroup>
+
+
+	<ItemGroup>
+		<None Include="icon.png" pack="true" Visible="false" PackagePath="" />
+		<None Include="readme.txt" pack="true" PackagePath="." />
+		<None Include="Parbad.Gateway.PasargadRest.xml" pack="true" Visible="false" PackagePath="" />
+	</ItemGroup>
+
+</Project>
+
+
+
+
