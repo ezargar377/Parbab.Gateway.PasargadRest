@@ -3,8 +3,8 @@
 	<PropertyGroup>
 		<PackageId>ParbadGateway.PasrgadRest</PackageId>
 		<Product>ParbadGateway.PasrgadRest</Product>
-		<VersionPrefix>1.0.2</VersionPrefix>
-		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net6.0;net7.0;</TargetFrameworks>
+		<VersionPrefix>1.0.3</VersionPrefix>
+		<TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp3.1;net6.0;net7.0;net8.0;</TargetFrameworks>
 		<LangVersion>latest</LangVersion>
 		<Authors>Ehsan Zargar</Authors>
 		<Copyright>Copyright © Ehsan Zargar </Copyright>
