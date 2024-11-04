@@ -21,11 +21,11 @@ namespace ParbadGateway.PasargadRest.Internal
         private readonly ILogger<PasargadIdentityService> logger;
         private readonly PasargadRestGatewayOptions gatewayOptions;
 
-        public PasargadIdentityService(IMemoryCache cache, HttpClient httpClient, ILogger<PasargadIdentityService> logger, IOptions<PasargadRestGatewayOptions> options            )
+        public PasargadIdentityService(IMemoryCache cache, IHttpClientFactory httpClient, ILogger<PasargadIdentityService> logger, IOptions<PasargadRestGatewayOptions> options            )
         {
 
             _cache = cache;
-            this.httpClient = httpClient;
+            this.httpClient = httpClient.CreateClient();
             this.logger = logger;
             gatewayOptions = options.Value;
         }
