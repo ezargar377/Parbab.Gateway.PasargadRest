@@ -16,6 +16,7 @@ namespace ParbadGateway.PasargadRest
             if (builder == null) throw new ArgumentNullException(nameof(builder));
 
             builder.Services.AddScoped<IPasargadIdentityService, PasargadIdentityService>();
+            builder.Services.AddHttpClient();
             builder.Services.AddHttpClient<IPasargadIdentityService>();
             return builder
                 .AddGateway<PasargadRestGateway>()
